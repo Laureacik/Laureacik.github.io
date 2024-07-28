@@ -4,6 +4,30 @@ body{
     background-color: #1B262C
 }
 
+hr{
+    grid-column: 1/4;
+    margin: 20px 0;
+    height: 0.1px;
+}
+   
+hr:after{
+    
+    background-color: #1B262C;
+    left: 30%;
+    position: absolute;
+    transform: translateY(-50%) translateX(-50%) scale(0.015);
+    padding: 20px;
+}
+
+hr.tt:after{
+    content: url(../Ikony/t_transparent.png);
+}
+
+hr.ct:after{
+    content: url(../Ikony/ct_transparent.png)
+}
+
+
 div.main{
     display: grid;
     grid-template:  '. myArea'

@@ -1,8 +1,8 @@
-        <a href="">HOME</a>
-        <a href="">WYBIERZ MAPĘ</a>
+        <a href="../">HOME</a>
+        <a href="../#maps">WYBIERZ MAPĘ</a>
         <a href="">MIRAGE</a>
         <a href="">NUKE</a>
-        <a href="">ANUBIS</a>
+        <a href="../Anubis/">ANUBIS</a>
         <a href="">ANCIENT</a>
         <a href="">DUST2</a>
         <a href="">VERTIGO</a>
