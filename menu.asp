@@ -1,11 +1,11 @@
 <nav>
     <div id="start">
-        <a href="#">STRONA GŁÓWNA</a>
-        <a href="../index.php#maps">WYBIERZ MAPĘ</a>
-        <a href="../index.php#about">O AUTORZE</a>
+        <a href="../">STRONA GŁÓWNA</a>
+        <a href="../#maps">WYBIERZ MAPĘ</a>
+        <a href="../#about">O AUTORZE</a>
     </div> 
     <div id="logo">
-        <a href="../index.php"><img src="https://images.seeklogo.com/logo-png/53/2/counter-strike-2-logo-png_seeklogo-534313.png" class="logoCS"/></a>
+        <a href="../index.html"><img src="https://images.seeklogo.com/logo-png/53/2/counter-strike-2-logo-png_seeklogo-534313.png" class="logoCS"/></a>
     </div>
     <div id="end">
         <a href="https://www.tiktok.com/">
