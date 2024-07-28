@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="menu.css">
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+      $(function() {
+         $("#loadmenu").load("menu.asp");
+         $("#loadfoot").load("footer.asp");
+      });
+   </script>
 </head>
 <body>
-    <header>
-        <?php 
-            require_once('menu.asp');
-        ?> 
-    </header>
+    <header id="loadmenu"></header>
     <div class="bg">
         <h1>GRANATY CSGO</h1>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -51,21 +54,7 @@
             <a href="#maps"><img src="https://static.wikia.nocookie.net/cswikia/images/3/3c/CS2_overpass_logo.png" class="mapLogo"><p>OVERPASS</p></a>
         </div>
     </div>
-    <footer>
-        <a href="">HOME</a>
-        <a href="">WYBIERZ MAPĘ</a>
-        <a href="">MIRAGE</a>
-        <a href="">NUKE</a>
-        <a href="">ANUBIS</a>
-        <a href="">ANCIENT</a>
-        <a href="">DUST2</a>
-        <a href="">VERTIGO</a>
-        <a href="">INFERNO</a>
-        <a href="">OVERPASS</a>
-        <a href="">INSTAGRAM</a>
-        <a href="">YOUTUBE</a>
-        <a href="">TIKTOK</a>
-    </footer>
+    <footer id="loadfoot"></footer>
 
 </body>
 </html>
