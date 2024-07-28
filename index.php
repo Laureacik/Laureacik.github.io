@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <?php 
+            require_once('menu.asp');
+        ?> 
+    </header>
+    <div class="bg">
+        <h1>GRANATY CSGO</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p><a href="#maps">WYBIERZ MAPE</a></p>
+    </div>
+    <div id="maps">
+        <div id="mirage" style=background-image:url(https://a.allegroimg.com/original/1183b0/6cbe50a6481494ede663bd6a2987/Fototapeta-CS2-CSGO-MIRAGE-MID-szer-254-x-wys-184)>
+            <a href="#maps"><img src="https://static.wikia.nocookie.net/cswikia/images/9/96/Set_mirage.png" class="mapLogo"><p>MIRAGE</p></a>
+        </div>
+
+        <div id="nuke" style=background-image:url(https://ocdn.eu/images/pulscms/Yjg7MDA_/646459c2ebb1c2372c73d85e0b9921c6.jpeg)>
+            <a href="Nuke"><img src="https://static.wikia.nocookie.net/cswikia/images/e/ef/Set_nuke_2.png" class="mapLogo"><p>NUKE</p></a>
+        </div>
+
+        <div id="anubis" style=background-image:url(https://static.cybersport.pl/img/1200/630/fit/wp-content/uploads/2023/08/anubis_cs2.jpg)>
+            <a href="Anubis"><img src="https://static.wikia.nocookie.net/cswikia/images/f/f8/Map_icon_de_anubis.png" class="mapLogo"><p>ANUBIS</p></a>
+        </div>
+
+        <div id="ancient" style=background-image:url(https://staticg.sportskeeda.com/editor/2023/10/6e234-16962306467380-1920.jpg)>
+            <a href="#maps"><img src="https://static.wikia.nocookie.net/cswikia/images/7/7c/Map_icon_de_ancient.png" class="mapLogo"><p>ANCIENT</p></a>
+        </div>
+
+        <div id="dust" style=background-image:url(https://files.bo3.gg/uploads/news/38790/title_image/960x480-3e08763935edb8f580ac0b535af3d3ad.webp)>
+            <a href="#maps"><img src="https://static.wikia.nocookie.net/cswikia/images/d/db/Map_icon_de_dust2.png" class="mapLogo"><p>DUST 2</p></a>
+        </div>
+
+        <div id="vertigo" style=background-image:url(https://pbs.twimg.com/media/F1RTa4NX0AMOVBl.jpg)>
+            <a href="#maps"><img src="https://static.wikia.nocookie.net/cswikia/images/4/46/Vertigo-logo-new.png/" class="mapLogo"><p>VERTIGO</p></a>
+        </div>
+
+        <div id="inferno" style=background-image:url(https://dotesports.com/wp-content/uploads/2023/09/cs2-inferno.jpg)>
+            <a href="#maps"><img src="https://static.wikia.nocookie.net/cswikia/images/0/0a/CS2_inferno_logo.png" class="mapLogo"><p>INFERNO</p></a>
+        </div>
+
+        <div id="overpass" style=background-image:url(https://editors.charlieintel.com/wp-content/uploads/2023/10/04/cs2-overpass-smoke-grenades-flash-lineups-1.jpg)>
+            <a href="#maps"><img src="https://static.wikia.nocookie.net/cswikia/images/3/3c/CS2_overpass_logo.png" class="mapLogo"><p>OVERPASS</p></a>
+        </div>
+    </div>
+    <footer>
+        <a href="">HOME</a>
+        <a href="">WYBIERZ MAPĘ</a>
+        <a href="">MIRAGE</a>
+        <a href="">NUKE</a>
+        <a href="">ANUBIS</a>
+        <a href="">ANCIENT</a>
+        <a href="">DUST2</a>
+        <a href="">VERTIGO</a>
+        <a href="">INFERNO</a>
+        <a href="">OVERPASS</a>
+        <a href="">INSTAGRAM</a>
+        <a href="">YOUTUBE</a>
+        <a href="">TIKTOK</a>
+    </footer>
+
+</body>
+</html>
