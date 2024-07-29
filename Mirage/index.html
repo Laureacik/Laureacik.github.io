@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../menu.css">
+    <title>Mirage</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+      $(function() {
+         $("#loadmenu").load("../menu.asp");
+         $("#loadfoot").load("../footer.asp");
+      });
+   </script>
+</head>
+<body>
+    <header id="loadmenu"></header>
+    <div class="main">
+        <input type="radio" name="wybor" id="A" checked>
+        <input type="radio" name="wybor" id="B">
+        <input type="radio" name="wybor" id="C">
+        <input type="radio" name="wybor" id="D">
+
+        <label for="A" id="A" style="grid-column-start: 1;">
+            <img src="../Ikony/Smoke.png">
+            <p class="sidemenu">SMOKE</p>
+        </label>
+        <label for="B" id="B" style="grid-column-start: 1;">
+            <img src="../Ikony/flash.png">
+            <p class="sidemenu">FLASH</p>
+        </label>
+        <label for="C" id="C" style="grid-column-start: 1;">
+            <img src="../Ikony/Molotov.png">
+            <p class="sidemenu">MOLOTOV</p>
+        </label>
+        <label for="D" id="D" style="grid-column-start: 1;">
+            <img src="../Ikony/HEgrennade.png">
+            <p class="sidemenu">HE-GRENADE</p>
+        </label> 
+
+        <div class="content" id="A">
+            <hr class="tt">
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Smoke_stairs.mp4" type="video/mp4"></video>
+                <p>Smoke na schody</p>
+                <p class="hide">
+                    TT | Left-click | Jumpthrow
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Smoke_jungle.mp4" type="video/mp4"></video>
+                <p>Smoke na dżungle</p>
+                <p class="hide">
+                    TT | Left-click | Jumpthrow
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Smoke_CT.mp4" type="video/mp4"></video>
+                <p>Smoke na CT</p>
+                <p class="hide">
+                    TT | Left-click | Jumpthrow
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Smoke_window.mp4" type="video/mp4"></video>
+                <p>Window from spawn</p>
+                <p class="hide">
+                    TT | Left-click | Jumpthrow | +D
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Smoke_con.mp4" type="video/mp4"></video>
+                <p>Connector from spawn</p>
+                <p class="hide">
+                    TT | Left-click | Jumpthrow
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Smoke_zajecie.mp4" type="video/mp4"></video>
+                <p>Smoke zajecie mida</p>
+                <p class="hide">
+                    TT | Left-click
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Smoke_window_topmid.mp4" type="video/mp4"></video>
+                <p>Window from top mid</p>
+                <p class="hide">
+                    TT | Left-click
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Smoke_market.mp4" type="video/mp4"></video>
+                <p>Smoke na market</p>
+                <p class="hide">
+                    TT | Left-click | Jumpthrow
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/A_execute.mp4" type="video/mp4"></video>
+                <p>A execute: smoke schody + dżungla</p>
+                <p class="hide">
+                    TT | Left-click | Jumpthrow
+                </p>    
+            </div>
+        </div>
+
+
+
+        <div class="content" id="B">
+            <hr class="tt">
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Flash_lampa.mp4" type="video/mp4"></video>
+                <p>"lampa" - wejscie na A</p>
+                <p class="hide">
+                    TT | Left-click | Jumpthrow
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Flash_mid.mp4" type="video/mp4"></video>
+                <p>Przejecie mida (za paczki)</p>
+                <p class="hide">
+                    TT | Left-click | +W
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Flash_vp.mp4" type="video/mp4"></video>
+                <p>Przejecie mida (VP)</p>
+                <p class="hide">
+                    TT | Left-click | Jumpthrow | +W
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Flash_opona.mp4" type="video/mp4"></video>
+                <p>B self pop-flash</p>
+                <p class="hide">
+                    TT | Left-click
+                </p>    
+            </div>
+
+            <hr class="ct">
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Flash_mid_ct.mp4" type="video/mp4"></video>
+                <p>Przejecie mida</p>
+                <p class="hide">
+                    CT | Left-click | Jumpthrow | +W
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Flash_window.mp4" type="video/mp4"></video>
+                <p>Window self flash</p>
+                <p class="hide">
+                    CT | Right-click | Jumpthrow | Crouch
+                </p>    
+            </div>
+        </div>
+
+
+
+        <div class="content" id="C">
+            <hr class="tt">
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Molo_drewno.mp4" type="video/mp4"></video>
+                <p>Pod drewno</p>
+                <p class="hide">
+                    TT | Left-click | +W
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Molo_ninja_default.mp4" type="video/mp4"></video>
+                <p>Ninja + default A</p>
+                <p class="hide">
+                    TT | Left-click
+                </p>    
+            </div>
+
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Molo_window.mp4" type="video/mp4"></video>
+                <p>Window from top mid</p>
+                <p class="hide">
+                    TT | Left-click | +W
+                </p>    
+            </div>
+            <hr class="ct">
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/Molo_rampa.mp4" type="video/mp4"></video>
+                <p>Rampa A</p>
+                <p class="hide">
+                    CT | Left-click | +W
+                </p>    
+            </div>
+        </div>
+
+
+
+        <div class="content" id="D">
+            <hr class="ct">
+            <div class="element">
+                <video controls><source src="https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/Media/HE_window.mp4" type="video/mp4"></video>
+                <p>Rozbicie smoke'a w oknie</p>
+                <p class="hide">
+                    CT | Right-click | Jumpthrow | Crouch
+                </p>    
+            </div>
+        </div>
+    </div>
+    <!--                                         template 
+
+            <div class="element">
+                <video controls><source src="Media/" type="video/mp4"></video>
+                <p></p>
+                <p class="hide">
+                    TT | Left-click | Jumpthrow | +W
+                </p>    
+            </div>
+                                                  blank
+
+            <div class="element"> 
+                <p></p>
+            </div>                                link
+
+            https://github.com/Laureacik/Laureacik.github.io/raw/main/Mirage/
+
+    -->
+    <footer id="loadfoot"></footer>
+</body>
+</html>

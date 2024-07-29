@@ -13,15 +13,18 @@ body{
 
 div.bg{
     margin: 0;
-    padding: 10px;
-    height: 760px;
-    background-color: brown;
+    height: 780px;
+    background-image: url(bgDarkBlue.svg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
+    background-size: cover;
     text-align: center;
+    color: rgb(190,190,190)
 }
 
 h1{
     font-size: 140px;
-    margin: 100px 0 50px
+    margin: 140px 0 50px
 }
 .bg p{
     font-size: 30px;
