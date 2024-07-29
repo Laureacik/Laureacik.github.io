@@ -69,20 +69,25 @@ div#maps>div{
 #maps a{
     display: block;
     width: auto;
-    height: auto;
+    height: 100%;
     text-align: center;
     margin: 0;
     
+
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #maps a img{
     height: 130px;
     width: 130px;
     margin-top: 20px;
+
+
+    filter:grayscale(70%)
 }
 
 #maps p{
-    color: white;
+    color: grey;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 20px;
     font-size: 50px;
@@ -90,4 +95,17 @@ div#maps>div{
 
 #maps div:hover{
     background-size: 137%;
+}
+
+
+#mirage a, #anubis a{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#mirage a img, #anubis a img{
+    filter: grayscale(0%)
+}
+
+#mirage p, #anubis p{
+    color: white;
 }
